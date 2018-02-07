@@ -8,11 +8,8 @@
 .fusion-secondary-header{
 	border-bottom-color:#b1b1b3 !important;
 }
-.fusion-sticky-logo{
-	transition: all 1s;
-}
-.fusion-is-sticky .fusion-sticky-logo{
-	transform: scale(0.5);
+.titulo h2{
+	padding: 3rem;
 }
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{

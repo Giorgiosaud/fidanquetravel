@@ -17,6 +17,12 @@
 .box p{
 padding-top: 0;
 }
+.buttonRoundedFlat{
+	border-width: 1px;
+    border-color: #1f4c97;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{
 		position:relative !important;

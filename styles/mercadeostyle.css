@@ -5,3 +5,6 @@
 .fusion-secondary-header a, .fusion-secondary-header a:hover{
 	color:#b1b1b3;	
 }
+.fusion-secondary-header{
+	border-bottom-color:#b1b1b3 !important;
+}

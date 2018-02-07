@@ -32,5 +32,12 @@ if( function_exists('acf_add_options_page') ) {
 		'capability' => 'edit_posts',
 		'parent_slug' => 'mercadeo_options',
 	));
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Footer Settings',
+		'menu_title' 	=> 'Footer Settings',
+		'menu_slug'=>'footer_mercadeo',
+		'capability' => 'edit_posts',
+		'parent_slug' => 'mercadeo_options',
+	));
 	
 }

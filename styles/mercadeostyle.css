@@ -23,6 +23,12 @@ padding-top: 0;
     border-radius: 5px;
     margin-top: 1rem;
 }
+.Planes {
+    padding: 4rem 6rem !important;
+}
+.Planes h2,.Planes h3{
+	padding: 0;
+}
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{
 		position:relative !important;

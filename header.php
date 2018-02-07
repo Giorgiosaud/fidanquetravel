@@ -67,7 +67,7 @@ if ( 'modern' === Avada()->settings->get( 'mobile_menu_design' ) ) {
 	<?php endif; ?>
 	<div id="wrapper" class="<?php echo esc_attr( $wrapper_class ); ?>">
 		<div id="home" style="position:relative;top:-1px;"></div>
-		<?php the_field('pre_header_section', 'mercadeo_options'); ?>
+		<?php echo the_field('pre_header_section', 'mercadeo_options'); ?>
 
 		<?php avada_header_template( 'Below', is_archive() || Avada_Helper::bbp_is_topic_tag() ); ?>
 		<?php if ( 'Left' === Avada()->settings->get( 'header_position' ) || 'Right' === Avada()->settings->get( 'header_position' ) ) : ?>

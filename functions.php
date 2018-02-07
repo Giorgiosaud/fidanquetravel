@@ -28,7 +28,8 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'Header Settings',
 		'menu_title' 	=> 'Header Settings',
-		'redirect' 		=> false,
+		'menu_slug'=>'header_mercadeo',
+		'capability' => 'edit_posts',
 		'parent_slug' => 'mercadeo_options',
 	));
 	

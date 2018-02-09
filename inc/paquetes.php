@@ -59,8 +59,8 @@ function paquetes_post_type() {
 add_action( 'init', 'paquetes_post_type', 0 );
 
 }
-// if ( ! function_exists('paquetes_aditionals_fields') ) {
-// 	function paquetes_aditionals_fields() {
+if ( ! function_exists('paquetes_aditionals_fields') ) {
+	function paquetes_aditionals_fields() {
 // 	$cmb = new_cmb2_box( array(
 // 		'id'            => CMB2PREFIX . 'metabox',
 // 		'title'         => esc_html__( 'Test Metabox', 'cmb2' ),
@@ -86,6 +86,7 @@ add_action( 'init', 'paquetes_post_type', 0 );
 // 		// 'repeatable'      => true,
 // 		// 'column'          => true, // Display field value in the admin post-listing columns
 // 	) );
-// 	}
+	}
+	}
 	// add_action( 'cmb2_admin_init', 'paquetes_aditionals_fields' );
 ?>

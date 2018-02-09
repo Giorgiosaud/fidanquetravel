@@ -79,12 +79,12 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 			'desc'       => esc_html__( 'Short description to show in Carousel', 'Avada' ),
 			'id'         => $prefix . 'short_description',
 			'type'       => 'textarea_small',
-// 		// 'show_on_cb' => 'yourprefix_hide_if_no_cats', // function should return a bool value
-// 		// 'sanitization_cb' => 'my_custom_sanitization', // custom sanitization callback parameter
-// 		// 'escape_cb'       => 'my_custom_escaping',  // custom escaping callback parameter
-// 		// 'on_front'        => false, // Optionally designate a field to wp-admin only
-// 		// 'repeatable'      => true,
-// 		// 'column'          => true, // Display field value in the admin post-listing columns
+		) );
+		$cmb->add_field( array(
+			'name'       => esc_html__( 'Short Description2', 'Avada' ),
+			'desc'       => esc_html__( 'Short description2 to show in Carousel', 'Avada' ),
+			'id'         => $prefix . 'short_description2',
+			'type'       => 'textarea_small',
 		) );
 		$cmb->add_field(array(
 			'name'=> esc_html__('Image For Carousel','Avada'),

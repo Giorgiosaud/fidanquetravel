@@ -67,7 +67,7 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 		'object_types'  => array( 'paquetes' ), // Post type
 // 		// 'show_on_cb' => 'yourprefix_show_if_front_page', // function should return a bool value
 // 		// 'context'    => 'normal',
-// 		'priority'   => 'high',
+		'priority'   => 'high',
 // 		// 'show_names' => true, // Show field names on the left
 // 		// 'cmb_styles' => false, // false to disable the CMB stylesheet
 // 		// 'closed'     => true, // true to keep the metabox closed by default

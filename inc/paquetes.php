@@ -87,5 +87,5 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 		// 'column'          => true, // Display field value in the admin post-listing columns
 	) );
 	}
-	add_action( 'cmb2_admin_init', 'paquetes_aditionals_fields' );
+	// add_action( 'cmb2_admin_init', 'paquetes_aditionals_fields' );
 ?>

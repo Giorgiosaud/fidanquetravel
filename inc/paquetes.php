@@ -80,12 +80,6 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 			'id'         => $prefix . 'short_description',
 			'type'       => 'textarea_small',
 		) );
-		$cmb->add_field( array(
-			'name'       => esc_html__( 'Short Description2', 'Avada' ),
-			'desc'       => esc_html__( 'Short description2 to show in Carousel', 'Avada' ),
-			'id'         => $prefix . 'short_description2',
-			'type'       => 'textarea_small',
-		) );
 		$cmb->add_field(array(
 			'name'=> esc_html__('Image For Carousel','Avada'),
 			'desc'=> esc_html__('Image For Carousel in home or other pages','Avada'),

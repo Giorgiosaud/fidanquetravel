@@ -17,5 +17,5 @@ add_action( 'after_setup_theme', 'avada_lang_setup' );
 // } elseif ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
 // 	require_once dirname( __FILE__ ) . '/CMB2/init.php';
 // }
-require 'optionspage.php';
-require 'inc/paquetes.php';
+// require 'optionspage.php';
+// require 'inc/paquetes.php';

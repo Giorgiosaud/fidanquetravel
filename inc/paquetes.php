@@ -86,7 +86,7 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 // 		// 'repeatable'      => true,
 // 		// 'column'          => true, // Display field value in the admin post-listing columns
 		) );
-		$cmb->add_feld(array(
+		$cmb->add_field(array(
 			'name'=> esc_html__('Image For Carousel','Avada'),
 			'desc'=> esc_html__('Image For Carousel in home or other pages','Avada'),
 			'id'         => $prefix . 'image_carousel',

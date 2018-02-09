@@ -63,11 +63,11 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 	function paquetes_aditionals_fields() {
 		$cmb = new_cmb2_box( array(
 			'id'            => CMB2PREFIX . 'metabox',
-			'title'         => esc_html__( 'Datos Extra', 'Avada' ),
+			'title'         => esc_html__( 'Datos Para Carousel', 'Avada' ),
 		'object_types'  => array( 'paquetes' ), // Post type
 // 		// 'show_on_cb' => 'yourprefix_show_if_front_page', // function should return a bool value
 // 		// 'context'    => 'normal',
-		'priority'   => 'high',
+		'priority'   => 'core',
 // 		// 'show_names' => true, // Show field names on the left
 // 		// 'cmb_styles' => false, // false to disable the CMB stylesheet
 // 		// 'closed'     => true, // true to keep the metabox closed by default

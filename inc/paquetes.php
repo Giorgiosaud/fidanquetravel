@@ -37,7 +37,7 @@ function paquetes_post_type() {
 		'label'                 => __( 'Paquete', 'Avada' ),
 		'description'           => __( 'Paquetes Turisticos', 'Avada' ),
 		'labels'                => $labels,
-		'supports'              => array( 'title', 'editor','excerpt', 'thumbnail', 'comments', 'trackbacks', 'revisions', 'post-formats' ),
+		'supports'              => array( 'title', 'editor', 'thumbnail', 'comments', 'trackbacks', 'revisions' ),
 		'taxonomies'            => array( 'category', 'post_tag' ),
 		'hierarchical'          => false,
 		'public'                => true,

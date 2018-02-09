@@ -12,6 +12,7 @@ function avada_lang_setup() {
 }
 add_action( 'after_setup_theme', 'avada_lang_setup' );
 require 'optionspage.php';
+require 'inc/paquetes.php';
 // if( function_exists('acf_add_options_page') ) {
 	
 // 	acf_add_options_page(array(

@@ -8,6 +8,7 @@ if ( ! function_exists('paquetes_post_type') ) {
 			'name'                  => _x( 'Paquetes', 'Post Type General Name', 'Avada' ),
 			'singular_name'         => _x( 'Paquete', 'Post Type Singular Name', 'Avada' ),
 			'menu_name'             => __( 'Paquetes', 'Avada' ),
+			'menu_icon'           => 'dashicons-palmtree',
 			'name_admin_bar'        => __( 'Paquetes', 'Avada' ),
 			'archives'              => __( 'Archivo de Paquetes', 'Avada' ),
 			'attributes'            => __( 'Atributos de Paquetes', 'Avada' ),

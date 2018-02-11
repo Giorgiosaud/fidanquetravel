@@ -11,12 +11,7 @@ function avada_lang_setup() {
 	load_child_theme_textdomain( 'Avada', $lang );
 }
 add_action( 'after_setup_theme', 'avada_lang_setup' );
-define('CMB2PREFIX','fidanquet_');
-if ( file_exists( dirname( __FILE__ ) . '/cmb2/init.php' ) ) {
-	require_once dirname( __FILE__ ) . '/cmb2/init.php';
-} elseif ( file_exists( dirname( __FILE__ ) . '/CMB2/init.php' ) ) {
-	require_once dirname( __FILE__ ) . '/CMB2/init.php';
-}
+
 add_image_size( 'carousel', 600, 400 );
 require 'optionspage.php';
 require 'inc/paquetes.php';

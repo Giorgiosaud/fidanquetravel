@@ -11,8 +11,6 @@ function avada_lang_setup() {
 	load_child_theme_textdomain( 'Avada', $lang );
 }
 add_action( 'after_setup_theme', 'avada_lang_setup' );
-
-add_image_size( 'carousel', 600, 400 );
 require 'optionspage.php';
 require 'inc/paquetes.php';
 

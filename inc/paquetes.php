@@ -106,6 +106,7 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 			'preview_size' => 'carousel', // Image size to use when previewing in the admin.
 		));
 	}
-}
 	add_action( 'cmb2_admin_init', 'paquetes_aditionals_fields' );
+
+}
 ?>

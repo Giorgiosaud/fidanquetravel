@@ -78,7 +78,7 @@ if ( ! function_exists('paquetes_aditionals_fields') ) {
 		$cmb->add_field( array(
 			'name'       => esc_html__( 'Short Description', 'Avada' ),
 			'desc'       => esc_html__( 'Short description to show in Carousel', 'Avada' ),
-			'id'         => $prefix . 'short_description',
+			'id'         => 'short_description',
 			'type'       => 'textarea_small',
 		) );
 		$cmb->add_field(array(

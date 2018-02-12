@@ -28,7 +28,7 @@ p.subtitle{
     margin: 0;
 }
 a.button_white {
-    color: white;
+    color: white !importanr;
     border-color: white;
 }
 .box h2,.box p{

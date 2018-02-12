@@ -13,10 +13,10 @@
 }(jQuery));
 
 jQuery(document).ready(function($) {
-	$('.title').setMaxHeight();
+	$('.title.fixh').setMaxHeight();
 	$('.subtitle').setMaxHeight();
 	$(window).on('resize', function(){
-    	$('.title').setMaxHeight();
+    	$('.title.fixh').setMaxHeight();
 		$('.subtitle').setMaxHeight();
 	});	
 });

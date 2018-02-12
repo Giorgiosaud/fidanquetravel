@@ -31,6 +31,10 @@ a.button_white {
     color: #fff;
     border-color: #fff;
 }
+footer p{
+    font-size: 12px;
+    line-height: 1;
+}
 .box h2,.box p{
 	padding: 3rem;
 	padding-bottom: 0;

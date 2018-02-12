@@ -28,8 +28,8 @@ p.subtitle{
     margin: 0;
 }
 a.button_white {
-    color: white !importanr;
-    border-color: white;
+    color: #fff;
+    border-color: #fff;
 }
 .box h2,.box p{
 	padding: 3rem;

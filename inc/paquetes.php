@@ -60,4 +60,5 @@ if ( ! function_exists('paquetes_post_type') ) {
 	add_action( 'init', 'paquetes_post_type', 0 );
 
 }
+
 ?>

@@ -37,6 +37,17 @@ font-weight: normal;
     font-family: 'Rubik';
     letter-spacing: 0px;
 }
+.title {
+    margin: 0;
+}
+.title:after{
+    content:"";
+    width: 30%;
+    background: #e9b542;
+    height: 3px;
+    display: block;
+    margin: auto;
+}
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{
 		position:relative !important;

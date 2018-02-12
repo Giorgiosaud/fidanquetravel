@@ -31,6 +31,13 @@ a.button_white {
     color: #fff;
     border-color: #fff;
 }
+a.fusion-social-network-icon.fusion-tooltip.fusion-facebook.fusion-icon-facebook {
+    border: solid #fff 1px;
+    padding: 0.4rem 0.4rem 0 0.4rem;
+    border-radius: 9px;
+    color: #fff !important;
+    font-size: 1.5rem;
+}
 footer p{
     font-size: 12px;
     line-height: 1;

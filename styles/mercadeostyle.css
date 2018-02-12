@@ -18,7 +18,7 @@
 }
 .title:after{
     content:"";
-    width: 30%;
+    width: 175px;
     background: #e9b542;
     height: 3px;
     display: table;

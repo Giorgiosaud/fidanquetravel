@@ -24,6 +24,9 @@
     display: table;
     margin: 0 auto 1rem auto;
 }
+.subtitle{
+    margin: 0;
+}
 a.button_white {
     color: white;
     border-color: white;

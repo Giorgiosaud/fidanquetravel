@@ -3,7 +3,7 @@
 function theme_enqueue_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'avada-stylesheet' ) );
     wp_enqueue_style('customizations',get_stylesheet_directory_uri().'/styles/mercadeostyle.css',array('child-style'),'0.8','all');
-    wp_enqueue_scripts('customjs',get_stylesheet_directory_uri().'/js/myjs.js',array('jquery'));
+    wp_enqueue_script('customjs',get_stylesheet_directory_uri().'/js/myjs.js',array('jquery'));
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 

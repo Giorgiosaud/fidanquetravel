@@ -17,7 +17,7 @@
     background: #e9b542;
     height: 3px;
     display: block;
-    margin: auto;
+    margin: 0 auto 1rem auto;
 }
 .box h2,.box p{
 	padding: 3rem;

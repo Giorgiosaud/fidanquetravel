@@ -2,7 +2,7 @@
 
 function theme_enqueue_styles() {
     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'avada-stylesheet' ) );
-    wp_enqueue_style('customizations',get_stylesheet_directory_uri().'/styles/mercadeostyle.css');
+    wp_enqueue_style('customizations',get_stylesheet_directory_uri().'/styles/mercadeostyle.css',array('child-style'),'0.8','all');
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 

@@ -8,6 +8,12 @@
 .fusion-secondary-header{
 	border-bottom-color:#b1b1b3 !important;
 }
+.fusion-logo{
+    transition:  all 1s;
+}
+.fusion-is-sticky .fusion-header .fusion-logo {
+    transform: scale(0.6);
+}
 .title {
     margin: 0;
     flex-direction: column;
@@ -38,6 +44,7 @@ a.fusion-social-network-icon.fusion-tooltip.fusion-facebook.fusion-icon-facebook
     color: #fff !important;
     font-size: 1.5rem;
 }
+
 footer p{
     font-size: 12px;
     line-height: 1;

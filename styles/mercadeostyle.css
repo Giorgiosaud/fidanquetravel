@@ -8,6 +8,17 @@
 .fusion-secondary-header{
 	border-bottom-color:#b1b1b3 !important;
 }
+.title {
+    margin: 0;
+}
+.title:after{
+    content:"";
+    width: 30%;
+    background: #e9b542;
+    height: 3px;
+    display: block;
+    margin: auto;
+}
 .box h2,.box p{
 	padding: 3rem;
 	padding-bottom: 0;
@@ -33,21 +44,12 @@ font-weight: normal;
 	padding: 0;
 	margin: 0;
 }
+
 .rubik{
     font-family: 'Rubik';
     letter-spacing: 0px;
 }
-.title {
-    margin: 0;
-}
-.title:after{
-    content:"";
-    width: 30%;
-    background: #e9b542;
-    height: 3px;
-    display: block;
-    margin: auto;
-}
+
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{
 		position:relative !important;

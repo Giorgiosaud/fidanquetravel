@@ -19,6 +19,10 @@
     display: block;
     margin: 0 auto 1rem auto;
 }
+a.button_white {
+    color: white;
+    border-color: white;
+}
 .box h2,.box p{
 	padding: 3rem;
 	padding-bottom: 0;

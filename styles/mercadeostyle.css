@@ -30,6 +30,22 @@
     display: table;
     margin: 0 auto 1rem auto;
 }
+.titleW {
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.titleW:after{
+    content:"";
+    width: 175px;
+    background: #FFF;
+    height: 3px;
+    display: table;
+    margin: 0 auto 1rem auto;
+}
 p.subtitle{
     margin: 0;
 }

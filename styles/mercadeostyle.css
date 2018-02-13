@@ -110,7 +110,6 @@ footer p{
     footer .fusion-widget-area .fusion-column{
         margin: 0;
         text-align: center;
-        
     }
     footer .fusion-widget-area .fusion-column:nth-child(2){
         order: 3;

@@ -108,8 +108,8 @@ footer p{
         order: 1;
     }
     footer .fusion-widget-area .fusion-column{
-        margin: 0;
-        text-align: center;
+        margin: 0 !important;
+        text-align:center;
     }
     footer .fusion-widget-area .fusion-column:nth-child(2){
         order: 3;
@@ -120,7 +120,6 @@ footer p{
     }
     footer .fusion-widget-area .fusion-column:nth-child(3) p{
         text-align: center !important;
-        margin: 0;
     }
 }
 @media only screen and (min-width: 800px){

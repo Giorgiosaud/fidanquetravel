@@ -90,7 +90,7 @@ footer p{
 }
 
 @media only screen and (max-width: 800px){
-     .fusion-logo img {
+   .fusion-logo img {
         max-width: 200px !important;
     }
     .fusion-header .fusion-row{
@@ -100,6 +100,9 @@ footer p{
     }
     footer .fusion-widget-area{
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media only screen and (min-width: 800px){

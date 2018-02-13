@@ -93,4 +93,7 @@ font-weight: normal;
 	.fusion-header-wrapper{
 		position:relative !important;
 	}
+    .fusion-logo img {
+        max-width: 200px;
+    }
 }

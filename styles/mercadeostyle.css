@@ -137,6 +137,13 @@ footer p{
     footer .fusion-widget-area .fusion-column:nth-child(3) p{
         text-align: center !important;
     }
+    .fusion-fa-align-left{
+        display: block;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{

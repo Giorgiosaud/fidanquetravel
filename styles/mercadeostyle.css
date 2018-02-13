@@ -142,6 +142,7 @@ footer p{
         width: 100%;
         align-items: center;
         justify-content: center;
+        margin-bottom: 1rem !important;
     }
 }
 @media only screen and (min-width: 800px){

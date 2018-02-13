@@ -90,17 +90,17 @@ footer p{
 }
 
 @media only screen and (max-width: 800px){
- .fusion-logo img {
-    max-width: 200px !important;
-}
-.fusion-header .fusion-row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-footer .fusion-columns{
-    display: flex;
-}
+     .fusion-logo img {
+        max-width: 200px !important;
+    }
+    .fusion-header .fusion-row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .fusion-widget-area{
+        display: flex;
+    }
 }
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{

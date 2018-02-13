@@ -55,6 +55,9 @@ footer p{
 	margin: 0;
 	text-align: center;
 }
+.fusion-mobile-menu-icons a, .fusion-mobile-menu-icons a:after, .fusion-mobile-menu-icons a:before{
+    color:#0016a4;
+}
 .carousel{
     font-family: 'Rubik';
     font-weight: 400;

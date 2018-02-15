@@ -18,11 +18,10 @@
 .fusion-standard-logo{
    height: 100%;
 }
-a:hover{
-	color:#1f4c97 !important;
-}
-a.button_white:hover{
-	border-color:#1f4c97;
+
+a.button_carousel:hover,a.button_white:hover{
+	border-color:#3379ec;
+	color:#3379ec;
 }
 .title {
     margin: 0;

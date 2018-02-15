@@ -11,10 +11,10 @@
 .fusion-header-v5.fusion-logo-center .fusion-logo a{
     transition:  all 1s;
 }
-.fusion-is-sticky .fusion-logo a{
+.fusion-is-sticky .fusion-header-v5.fusion-logo-center .fusion-logo a{
 	height: 60px;
 }
-.fusion-is-sticky .fusion-header .fusion-logo .fusion-standard-logo{
+.fusion-standard-logo{
    height: 100%;
 }
 .title {

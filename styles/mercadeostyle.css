@@ -20,8 +20,8 @@
 }
 
 a.button_carousel:hover,a.button_white:hover{
-	border-color:#3379ec;
-	color:#3379ec;
+	background:#1f4b92;
+	color:#fff;
 }
 .title {
     margin: 0;

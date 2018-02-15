@@ -18,6 +18,9 @@
 .fusion-standard-logo{
    height: 100%;
 }
+a:hover{
+	color:#1f4c97;
+}
 .title {
     margin: 0;
     flex-direction: column;

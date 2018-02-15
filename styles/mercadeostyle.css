@@ -69,7 +69,9 @@ a.fusion-social-network-icon.fusion-tooltip.fusion-facebook.fusion-icon-facebook
     color: #fff !important;
     font-size: 1.5rem;
 }
-
+.topImageHeader{
+	height: 400px;
+}
 footer p{
     font-size: 12px;
     line-height: 1;

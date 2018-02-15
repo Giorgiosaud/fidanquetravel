@@ -8,11 +8,14 @@
 .fusion-secondary-header{
 	border-bottom-color:#b1b1b3 !important;
 }
-.fusion-logo .fusion-standard-logo{
+.fusion-header-v5.fusion-logo-center .fusion-logo a{
     transition:  all 1s;
 }
+.fusion-is-sticky{
+	height: 60px;
+}
 .fusion-is-sticky .fusion-header .fusion-logo .fusion-standard-logo{
-   height: 50px;
+   height: 100%;
 }
 .title {
     margin: 0;

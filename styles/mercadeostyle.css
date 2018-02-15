@@ -13,6 +13,7 @@
 }
 .fusion-is-sticky .fusion-header-v5.fusion-logo-center .fusion-logo a{
 	height: 60px;
+	transform: scale(0.95);
 }
 .fusion-standard-logo{
    height: 100%;

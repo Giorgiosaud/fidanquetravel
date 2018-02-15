@@ -21,6 +21,9 @@
 a:hover{
 	color:#1f4c97 !important;
 }
+a.button_white:hover{
+	border-color:#1f4c97;
+}
 .title {
     margin: 0;
     flex-direction: column;

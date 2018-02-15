@@ -29,7 +29,7 @@ a.button_carousel:hover,a.button_white:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
 }
 .title:after{
     content:"";

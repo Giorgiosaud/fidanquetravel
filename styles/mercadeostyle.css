@@ -31,7 +31,7 @@ a.custom_layer_button {
     border-radius: 7px;
     font-size: 27px;
 }
-a.custom_layer_button :hover{
+a.custom_layer_button:hover{
 	color: #fff;
 	background:#1f4b92;
 }

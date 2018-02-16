@@ -24,7 +24,13 @@
 .fusion-standard-logo{
    height: 100%;
 }
-
+a.custom_layer_button {
+    color: #fff;
+    background: #feb700;
+    padding: 15px 60px;
+    border-radius: 7px;
+    font-size: 27px;
+}
 a.button_carousel:hover,a.button_white:hover{
 	background:#1f4b92;
 	color:#fff;

@@ -13,10 +13,10 @@
 }(jQuery));
 
 jQuery(document).ready(function($) {
-	$('.title.fixh').setMaxHeight();
+	$('a .title.fixh').setMaxHeight();
 	$('.subtitle').setMaxHeight();
 	$(window).on('resize', function(){
-     $('.title.fixh').setMaxHeight();
+     $('a .title.fixh').setMaxHeight();
      $('.subtitle').setMaxHeight();
  });	
     if($('input.date-depart').length>0){

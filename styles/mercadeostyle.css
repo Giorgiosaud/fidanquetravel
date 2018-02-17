@@ -21,6 +21,9 @@
 	height: 60px;
 	transform: scale(0.95);
 }
+.date-picker-wrapper{
+	z-index: 20;
+}
 .fusion-standard-logo{
    height: 100%;
 }

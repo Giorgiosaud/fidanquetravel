@@ -2484,7 +2484,7 @@
         }
 
         function showDayHTML(time, date) {
-            if (opt.showDateFilter && typeof opt.showDateFilter == 'function') return opt.showDateFilter(time, date);
+            if (opt.showDateFilter && typeof opt.showDateFilter == 'function') return opt.showDateFilter(time, date,opt);
             return date;
         }
 

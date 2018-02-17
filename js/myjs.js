@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
                 $('input.date-depart').val(s1);
                 $('input.date-return').val(s2);
             },
-            showDateFilter: function(time, date)
+            showDateFilter: function(time, date,opt)
             {
                 return '<div style="padding:0 5px;">\
                 <span style="font-weight:bold">'+date+'</span>\

@@ -20,6 +20,6 @@ jQuery(document).ready(function($) {
 		$('.subtitle').setMaxHeight();
 	});	
 
-    $('input.depart-date').dateRangePicker();
+    $('input.date-depart').dateRangePicker();
 });
 

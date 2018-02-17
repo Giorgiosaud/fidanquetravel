@@ -16,15 +16,13 @@ jQuery(document).ready(function($) {
 	$('.title.fixh').setMaxHeight();
 	$('.subtitle').setMaxHeight();
 	$(window).on('resize', function(){
-       $('.title.fixh').setMaxHeight();
-       $('.subtitle').setMaxHeight();
-   });	
+     $('.title.fixh').setMaxHeight();
+     $('.subtitle').setMaxHeight();
+ });	
     if($('input.date-depart').length>0){
         var conf={
-            separator : ' al ',
-            extraClass:'fidanqueDatepicker',
-            showTopbar:false,
             format: 'dddd DD MMM [del] YYYY',
+            separator : ' al ',
             getValue: function()
             {
                 if ($('input.date-depart').val() && $('input.date-return').val() )
@@ -36,7 +34,13 @@ jQuery(document).ready(function($) {
             {
                 $('input.date-depart').val(s1);
                 $('input.date-return').val(s2);
-            }
+            },
+            startDate:moment().format('dddd DD MMM [del] YYYY'),
+            extraClass:'fidanqueDatepicker',
+            showTopbar:false,
+            
+            
+            
         };
         $('input.date-depart').dateRangePicker(conf);
         $('input.date-return').dateRangePicker(conf);

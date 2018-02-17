@@ -27,6 +27,9 @@
 .fidanqueDatepicker.drp_top-bar{
     display: none;
 }
+.fidanqueDatepicker .date-picker-wrapper.no-shortcuts{
+padding: 0;
+}
 input[type="number"],input[type="tel"],input[type="email"],input[type="text"] {
     border-top: none !important;
     border-left: none !important;

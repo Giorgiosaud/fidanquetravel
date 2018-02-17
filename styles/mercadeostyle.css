@@ -27,6 +27,22 @@
 .fidanqueDatepicker.drp_top-bar{
     display: none;
 }
+input[type="number"],input[type="tel"],input[type="email"],input[type="text"] {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom-width: 1px;
+    transition: 0.3s all;
+}
+textarea{
+    border-bottom-width: 1px;
+    transition: 0.3s all;
+}
+textarea:focus,input[type="number"]:focus,input[type="tel"]:focus,input[type="email"]:focus,input[type="text"]:focus{
+    outline: none;
+    border-width: 2px;
+}
+
 .fusion-standard-logo{
    height: 100%;
 }

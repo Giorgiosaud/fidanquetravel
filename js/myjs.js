@@ -38,6 +38,7 @@ jQuery(document).ready(function($) {
         });
         $('input.date-return').dateRangePicker({
             separator : ' al ',
+            extraClass:'fidanqueDatepicker',
             format: 'dddd DD MMM [del] YYYY',
             getValue: function()
             {

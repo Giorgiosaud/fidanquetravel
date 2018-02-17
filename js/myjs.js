@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
 
     $('input.date-depart').dateRangePicker({
         separator : ' al ',
-        format: 'dddd DD MMM \d\e\l YYYY',
+        format: 'dddd DD MMM [del] YYYY',
         getValue: function()
         {
             if ($('input.date-depart').val() && $('input.date-return').val() )

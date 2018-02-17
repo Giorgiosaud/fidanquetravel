@@ -10,9 +10,9 @@ function theme_enqueue_styles() {
     wp_enqueue_script('momentjs','https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js',array('jquery'));
     wp_enqueue_script('momentjses','https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/locale/es-us.js',array('momentjs'));
     wp_enqueue_script('daterangepicker',
-    	'https://raw.githubusercontent.com/longbill/jquery-date-range-picker/master/src/jquery.daterangepicker.js'
-    	// 'https://cdnjs.cloudflare.com/ajax/libs/jquery-date-range-picker/0.16.1/jquery.daterangepicker.min.js'
-    	,array('momentjses'));
+    	get_stylesheet_directory_uri().'/js/daterangepicker.js',
+    	// 'https://cdnjs.cloudflare.com/ajax/libs/jquery-date-range-picker/0.16.1/jquery.daterangepicker.min.js',
+    	array('momentjses'));
 	wp_enqueue_script('customjs',get_stylesheet_directory_uri().'/js/myjs.js',array('daterangepicker'));
 
 

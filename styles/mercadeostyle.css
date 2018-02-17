@@ -12,10 +12,10 @@
     transition:  all 1s;
 }
 .fusion-page-title-bar .fusion-page-title-row h1 {
-    text-shadow: #0016a4 1px 1px 1px;
+    /*text-shadow: #0016a4 1px 1px 1px;*/
 }
 .fusion-page-title-bar .fusion-breadcrumbs, .fusion-page-title-bar .fusion-breadcrumbs a{
-	text-shadow: #feb700 1px 1px 1px;
+	/*text-shadow: #feb700 1px 1px 1px;*/
 }
 .fusion-is-sticky .fusion-header-v5.fusion-logo-center .fusion-logo a{
 	height: 60px;

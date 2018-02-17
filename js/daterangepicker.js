@@ -2483,7 +2483,7 @@
             return html.join('');
         }
 
-        function showDayHTML(time, date) {
+        function showDayHTML(time, date,opt) {
             if (opt.showDateFilter && typeof opt.showDateFilter == 'function') return opt.showDateFilter(time, date,opt);
             return date;
         }

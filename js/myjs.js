@@ -16,9 +16,9 @@ jQuery(document).ready(function($) {
 	$('.title.fixh').setMaxHeight();
 	$('.subtitle').setMaxHeight();
 	$(window).on('resize', function(){
-     $('.title.fixh').setMaxHeight();
-     $('.subtitle').setMaxHeight();
- });	
+       $('.title.fixh').setMaxHeight();
+       $('.subtitle').setMaxHeight();
+   });	
     if($('input.date-depart').length>0){
         $('input.date-depart').dateRangePicker({
             separator : ' al ',
@@ -34,6 +34,13 @@ jQuery(document).ready(function($) {
             {
                 $('input.date-depart').val(s1);
                 $('input.date-return').val(s2);
+            },
+            showDateFilter: function(time, date)
+            {
+                return '<div style="padding:0 5px;">\
+                <span style="font-weight:bold">'+date+'</span>\
+                <div style="opacity:0.3;">$'+time+'</div>\
+                </div>';
             }
         });
         $('input.date-return').dateRangePicker({

@@ -16,24 +16,25 @@ jQuery(document).ready(function($) {
 	$('.title.fixh').setMaxHeight();
 	$('.subtitle').setMaxHeight();
 	$(window).on('resize', function(){
-    	$('.title.fixh').setMaxHeight();
-		$('.subtitle').setMaxHeight();
-	});	
+       $('.title.fixh').setMaxHeight();
+       $('.subtitle').setMaxHeight();
+   });	
 
     $('input.date-depart').dateRangePicker({
         separator : ' a ',
-    getValue: function()
-    {
-        if ($('input.date-depart').val() && $('input.date-return').val() )
-            return $('input.date-depart').val() + ' a ' + $('input.date-return').val();
-        else
-            return '';
-    },
-    setValue: function(s,s1,s2)
-    {
-        $('input.date-depart').val(s1);
-        $('input.date-return').val(s2);
-    }
+        format: 'dddd MMM Do, YYYY',
+        getValue: function()
+        {
+            if ($('input.date-depart').val() && $('input.date-return').val() )
+                return $('input.date-depart').val() + ' a ' + $('input.date-return').val();
+            else
+                return '';
+        },
+        setValue: function(s,s1,s2)
+        {
+            $('input.date-depart').val(s1);
+            $('input.date-return').val(s2);
+        }
     });
 });
 

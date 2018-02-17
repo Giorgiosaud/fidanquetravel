@@ -24,6 +24,9 @@
 .date-picker-wrapper{
 	z-index: 20;
 }
+.drp_top-bar.normal{
+    display: none;
+}
 .fusion-standard-logo{
    height: 100%;
 }

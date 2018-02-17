@@ -19,5 +19,7 @@ jQuery(document).ready(function($) {
     	$('.title.fixh').setMaxHeight();
 		$('.subtitle').setMaxHeight();
 	});	
+
+    $('input.depart-date').dateRangePicker();
 });
 

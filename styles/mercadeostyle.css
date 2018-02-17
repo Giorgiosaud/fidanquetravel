@@ -80,9 +80,7 @@ a.button_carousel:hover,a.button_white:hover{
     justify-content: center;
     /*margin-bottom: 1rem;*/
 }
-a .title:hover{
-color:#feb700;
-}
+
 .title:after{
     content:"";
     width: 175px;

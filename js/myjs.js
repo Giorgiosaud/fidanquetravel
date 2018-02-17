@@ -23,6 +23,7 @@ jQuery(document).ready(function($) {
         var conf={
             separator : ' al ',
             extraClass:'fidanqueDatepicker',
+            showTopbar:false,
             format: 'dddd DD MMM [del] YYYY',
             getValue: function()
             {

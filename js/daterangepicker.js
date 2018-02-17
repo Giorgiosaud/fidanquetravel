@@ -2483,8 +2483,8 @@
             return html.join('');
         }
 
-        function showDayHTML(time, date,opt) {
-            if (opt.showDateFilter && typeof opt.showDateFilter == 'function') return opt.showDateFilter(time, date,opt);
+        function showDayHTML(time, date) {
+            if (opt.showDateFilter && typeof opt.showDateFilter == 'function') return opt.showDateFilter(time, date);
             return date;
         }
 

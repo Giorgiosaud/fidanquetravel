@@ -78,6 +78,7 @@ a.button_carousel:hover,a.button_white:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.5s all;
     /*margin-bottom: 1rem;*/
 }
 
@@ -88,6 +89,14 @@ a.button_carousel:hover,a.button_white:hover{
     height: 3px;
     display: table;
     margin: 0 auto 1rem auto;
+    transition: 0.5s all;
+}
+a .title:hover{
+color:#feb700;
+}
+
+a:hover .title:after{
+    background:#0016a4;
 }
 .titleW {
     margin: 0;

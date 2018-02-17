@@ -39,7 +39,7 @@ jQuery(document).ready(function($) {
             {
                 return '<div style="padding:0 5px;">\
                 <span style="font-weight:bold">'+date+'</span>\
-                <div style="opacity:0.3;">$'+time+'</div>\
+                <div style="opacity:0.3;">$'+opt+'</div>\
                 </div>';
             }
         });

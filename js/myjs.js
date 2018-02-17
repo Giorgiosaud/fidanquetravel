@@ -20,23 +20,7 @@ jQuery(document).ready(function($) {
        $('.subtitle').setMaxHeight();
    });	
     if($('input.date-depart').length>0){
-        $('input.date-depart').dateRangePicker({
-            separator : ' al ',
-            format: 'dddd DD MMM [del] YYYY',
-            getValue: function()
-            {
-                if ($('input.date-depart').val() && $('input.date-return').val() )
-                    return $('input.date-depart').val() + ' a ' + $('input.date-return').val();
-                else
-                    return '';
-            },
-            setValue: function(s,s1,s2)
-            {
-                $('input.date-depart').val(s1);
-                $('input.date-return').val(s2);
-            }
-        });
-        $('input.date-return').dateRangePicker({
+        var conf={
             separator : ' al ',
             extraClass:'fidanqueDatepicker',
             format: 'dddd DD MMM [del] YYYY',
@@ -52,7 +36,9 @@ jQuery(document).ready(function($) {
                 $('input.date-depart').val(s1);
                 $('input.date-return').val(s2);
             }
-        });
+        };
+        $('input.date-depart').dateRangePicker(conf);
+        $('input.date-return').dateRangePicker(conf);
     }
 });
 

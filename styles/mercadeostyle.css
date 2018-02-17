@@ -45,7 +45,15 @@ textarea:focus,input[type="number"]:focus,input[type="tel"]:focus,input[type="em
     outline: none;
     border-width: 2px;
 }
-
+input[type="submit"].wpcf7-submit {
+    background: #feb700;
+    border: 10px;
+    color: #fff;
+}
+input[type="submit"].wpcf7-submit:hover {
+    background: #0016a4;
+    color:#fff;
+}
 .fusion-standard-logo{
    height: 100%;
 }

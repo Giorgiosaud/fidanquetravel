@@ -21,10 +21,10 @@
 	height: 60px;
 	transform: scale(0.95);
 }
-.date-picker-wrapper{
+.fidanqueDatepicker.date-picker-wrapper{
 	z-index: 20;
 }
-.drp_top-bar{
+.fidanqueDatepicker.drp_top-bar{
     display: none;
 }
 .fusion-standard-logo{

@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
        $('.subtitle').setMaxHeight();
    });	
 
-    $('input.date-depart').dateRangePicker({
+    $('input.date-depart,input.date-return').dateRangePicker({
         separator : ' al ',
         format: 'dddd DD MMM [del] YYYY',
         getValue: function()

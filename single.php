@@ -20,6 +20,7 @@ exit( 'Direct script access denied.' );
 		<div class="single-navigation clearfix">
 			<div class="fusion-single-navigation-wrapper">
 				<div class="breadcrumb">
+					<?php var_dump($alignment)?>
 					<?php if ( 'center' === $alignment ) : // Render secondary content on center layout. ?>
 						<?php if ( 'none' !== fusion_get_option( 'page_title_bar_bs', 'page_title_breadcrumbs_search_bar', $post_id ) ) : ?>
 							<div class="fusion-page-title-secondary">

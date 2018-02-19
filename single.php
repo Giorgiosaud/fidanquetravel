@@ -20,13 +20,9 @@ exit( 'Direct script access denied.' );
 		<div class="single-navigation clearfix">
 			<div class="fusion-single-navigation-wrapper">
 				<div class="breadcrumb">
-					<?php if ( 'center' === $alignment ) : // Render secondary content on center layout. ?>
-						<?php if ( 'none' !== fusion_get_option( 'page_title_bar_bs', 'page_title_breadcrumbs_search_bar', $post_id ) ) : ?>
-							<div class="fusion-page-title-secondary">
-								<?php echo $secondary_content; // WPCS: XSS ok. ?>
-							</div>
-						<?php endif; ?>
-					<?php endif; ?>
+					<div class="fusion-page-title-secondary">
+						<?php echo $secondary_content; // WPCS: XSS ok. ?>
+					</div>
 				</div>
 				<?php previous_post_link( '%link', esc_attr__( 'Previous', 'Avada' ) ); ?>
 				<?php next_post_link( '%link', esc_attr__( 'Next', 'Avada' ) ); ?>

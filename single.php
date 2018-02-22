@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<div class="single-navigation clearfix">
 			<div class="fusion-single-navigation-wrapper">
 				<div class="breadcrubms">
-					<a href="/"><?php _e( 'Inicio', 'Avada' ) ?></a>‹<a><a href="/paquetes/"><?php _e( 'Paquetes', 'Avada' ) ?></a>‹<a href="<?php the_permalink()?>"><?php the_title() ?></a>
+					<a href="/"><?php _e( 'Inicio', 'Avada' ) ?></a>‹<a href="/paquetes/"><?php _e( 'Paquetes', 'Avada' ) ?></a>‹<a href="<?php the_permalink()?>"><?php the_title() ?></a>
 				</div>
 				<div class="prev-next-links">
 				<?php previous_post_link( '%link', esc_attr__( 'Previous', 'Avada' ) ); ?>

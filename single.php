@@ -1,15 +1,15 @@
 <?php
 /**
-* Template used for single posts and other post-types
-* that don't have a specific template.
-*
-* @package Avada
-* @subpackage Templates
-*/
+ * Template used for single posts and other post-types
+ * that don't have a specific template.
+ *
+ * @package Avada
+ * @subpackage Templates
+ */
 
 // Do not allow directly accessing this file.
 if ( ! defined( 'ABSPATH' ) ) {
-exit( 'Direct script access denied.' );
+	exit( 'Direct script access denied.' );
 }
 ?>
 <?php get_header(); ?>
@@ -19,11 +19,6 @@ exit( 'Direct script access denied.' );
 	<?php if ( ( Avada()->settings->get( 'blog_pn_nav' ) && 'no' !== $post_pagination ) || ( ! Avada()->settings->get( 'blog_pn_nav' ) && 'yes' === $post_pagination ) ) : ?>
 		<div class="single-navigation clearfix">
 			<div class="fusion-single-navigation-wrapper">
-				<div class="breadcrumb">
-					<div class="fusion-page-title-secondary">
-						<?php echo $secondary_content; // WPCS: XSS ok. ?>
-					</div>
-				</div>
 				<?php previous_post_link( '%link', esc_attr__( 'Previous', 'Avada' ) ); ?>
 				<?php next_post_link( '%link', esc_attr__( 'Next', 'Avada' ) ); ?>
 			</div>
@@ -37,10 +32,10 @@ exit( 'Direct script access denied.' );
 			<?php if ( 'above' == Avada()->settings->get( 'blog_post_title' ) ) : ?>
 				<?php if ( 'below_title' === Avada()->settings->get( 'blog_post_meta_position' ) ) : ?>
 					<div class="fusion-post-title-meta-wrap">
-					<?php endif; ?>
-					<?php echo avada_render_post_title( $post->ID, false, '', '2' ); // WPCS: XSS ok. ?>
-					<?php if ( 'below_title' === Avada()->settings->get( 'blog_post_meta_position' ) ) : ?>
-						<?php echo avada_render_post_metadata( 'single' ); // WPCS: XSS ok. ?>
+				<?php endif; ?>
+				<?php echo avada_render_post_title( $post->ID, false, '', '2' ); // WPCS: XSS ok. ?>
+				<?php if ( 'below_title' === Avada()->settings->get( 'blog_post_meta_position' ) ) : ?>
+					<?php echo avada_render_post_metadata( 'single' ); // WPCS: XSS ok. ?>
 					</div>
 				<?php endif; ?>
 			<?php elseif ( 'disabled' == Avada()->settings->get( 'blog_post_title' ) && Avada()->settings->get( 'disable_date_rich_snippet_pages' ) && Avada()->settings->get( 'disable_rich_snippet_title' ) ) : ?>
@@ -53,10 +48,10 @@ exit( 'Direct script access denied.' );
 					<?php if ( 0 < avada_number_of_featured_images() || $video ) : ?>
 						<?php
 						Avada()->images->set_grid_image_meta(
-						array(
-						'layout' => strtolower( 'large' ),
-						'columns' => '1',
-						)
+							array(
+								'layout' => strtolower( 'large' ),
+								'columns' => '1',
+							)
 						);
 						?>
 						<div class="fusion-flexslider flexslider fusion-flexslider-loading post-slideshow fusion-post-slideshow">
@@ -112,10 +107,10 @@ exit( 'Direct script access denied.' );
 			<?php if ( 'below' == Avada()->settings->get( 'blog_post_title' ) ) : ?>
 				<?php if ( 'below_title' === Avada()->settings->get( 'blog_post_meta_position' ) ) : ?>
 					<div class="fusion-post-title-meta-wrap">
-					<?php endif; ?>
-					<?php echo avada_render_post_title( $post->ID, false, '', '2' ); // WPCS: XSS ok. ?>
-					<?php if ( 'below_title' === Avada()->settings->get( 'blog_post_meta_position' ) ) : ?>
-						<?php echo avada_render_post_metadata( 'single' ); // WPCS: XSS ok. ?>
+				<?php endif; ?>
+				<?php echo avada_render_post_title( $post->ID, false, '', '2' ); // WPCS: XSS ok. ?>
+				<?php if ( 'below_title' === Avada()->settings->get( 'blog_post_meta_position' ) ) : ?>
+					<?php echo avada_render_post_metadata( 'single' ); // WPCS: XSS ok. ?>
 					</div>
 				<?php endif; ?>
 			<?php endif; ?>

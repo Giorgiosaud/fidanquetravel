@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
 .fusion-contact-info{
 	text-align: center;
 	color:#b1b1b3;
@@ -217,6 +220,12 @@ footer p{
         justify-content: center;
         margin-bottom: 1rem !important;
     }
+}
+.inca{
+    font-family: 'Coming Soon', cursive;
+}
+.city{
+    font-family: 'Monoton', cursive;
 }
 @media only screen and (min-width: 800px){
 	.fusion-header-wrapper{

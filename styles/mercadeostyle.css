@@ -229,6 +229,7 @@ footer p{
 }
 .single-navigation.clearfix{
     border:none;
+    margin: 0;
 }
 .fusion-single-navigation-wrapper {
     display: flex;

@@ -19,8 +19,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php if ( ( Avada()->settings->get( 'blog_pn_nav' ) && 'no' !== $post_pagination ) || ( ! Avada()->settings->get( 'blog_pn_nav' ) && 'yes' === $post_pagination ) ) : ?>
 		<div class="single-navigation clearfix">
 			<div class="fusion-single-navigation-wrapper">
+				<div class="breadcrubms">
+					<?php _e( 'Previous', 'Avada' ) ?><a href="/paquetes/"><?php _e( 'Paquetes', 'Avada' ) ?></a>><?php the_title() ?>
+				</div>
+				<div class="prev-next-links">
 				<?php previous_post_link( '%link', esc_attr__( 'Previous', 'Avada' ) ); ?>
 				<?php next_post_link( '%link', esc_attr__( 'Next', 'Avada' ) ); ?>
+				</div>
 			</div>
 		</div>
 	<?php endif; ?>

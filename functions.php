@@ -11,7 +11,12 @@ function avada_lang_setup() {
     load_child_theme_textdomain( 'Avada', $lang );
 }
 add_action( 'after_setup_theme', 'avada_lang_setup' );
-
+add_filter( 'upload_mimes', 'my_myme_types', 1, 1 );
+function my_myme_types( $mime_types ) {
+  $mime_types['ttf'] = 'application/font-ttf';     // Adding .svg extension
+  $mime_types['eot'] = 'application/vnd.ms-fontobject'; // Adding .json extension
+  return $mime_types;
+}
 // function theme_enqueue_styles() {
 //     wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'avada-stylesheet' ) );
     

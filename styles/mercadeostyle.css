@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+/*@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
 .fusion-contact-info{
@@ -13,18 +13,18 @@
 }
 .fusion-header-v5.fusion-logo-center .fusion-logo a{
     transition:  all 1s;
-}
-.fusion-page-title-bar .fusion-page-title-row h1 {
+}*/
+/*.fusion-page-title-bar .fusion-page-title-row h1 {*/
     /*text-shadow: #0016a4 1px 1px 1px;*/
-}
-.fusion-page-title-bar .fusion-breadcrumbs, .fusion-page-title-bar .fusion-breadcrumbs a{
+/*}*/
+/*.fusion-page-title-bar .fusion-breadcrumbs, .fusion-page-title-bar .fusion-breadcrumbs a{*/
 	/*text-shadow: #feb700 1px 1px 1px;*/
+/*}*/
+/*.fusion-is-sticky .fusion-header-v5.fusion-logo-center .fusion-logo a{*/
+	/*height: 60px;*/
+	/*transform: scale(0.95);*/
 }
-.fusion-is-sticky .fusion-header-v5.fusion-logo-center .fusion-logo a{
-	height: 60px;
-	transform: scale(0.95);
-}
-.fidanqueDatepicker.date-picker-wrapper{
+/*.fidanqueDatepicker.date-picker-wrapper{
 	z-index: 20;
 }
 .fidanqueDatepicker.drp_top-bar{
@@ -83,9 +83,9 @@ a.button_carousel:hover,a.button_white:hover{
     justify-content: center;
     transition: 0.5s all;
     /*margin-bottom: 1rem;*/
-}
+/*}*/
 
-.titleSpecial:after{
+/*.titleSpecial:after{
     content:"";
     width: 175px;
     background: #e9b542;
@@ -249,4 +249,4 @@ footer p{
 		position:relative !important;
 	}
 
-}
+}*/

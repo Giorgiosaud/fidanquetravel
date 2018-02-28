@@ -75,7 +75,7 @@ a.button_carousel:hover,a.button_white:hover{
 	background:#1f4b92;
 	color:#fff;
 }
-.title {
+.titleSpecialSpecial {
     margin: 0;
     flex-direction: column;
     display: flex;
@@ -85,7 +85,7 @@ a.button_carousel:hover,a.button_white:hover{
     /*margin-bottom: 1rem;*/
 }
 
-.title:after{
+.titleSpecial:after{
     content:"";
     width: 175px;
     background: #e9b542;
@@ -94,14 +94,14 @@ a.button_carousel:hover,a.button_white:hover{
     margin: 0 auto 1rem auto;
     transition: 0.5s all;
 }
-a .title:hover{
+a .titleSpecial:hover{
 color:#feb700;
 }
 
-a:hover .title:after{
+a:hover .titleSpecial:after{
     background:#0016a4;
 }
-.titleW {
+.titleSpecialW {
     margin: 0;
     flex-direction: column;
     display: flex;
@@ -109,7 +109,7 @@ a:hover .title:after{
     justify-content: center;
     margin-bottom: 1rem;
 }
-.titleW:after{
+.titleSpecialW:after{
     content:"";
     width: 175px;
     background: #FFF;
